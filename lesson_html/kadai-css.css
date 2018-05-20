@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    margin: 5px;
+    padding: 0;
+    color: black;
+    font-size: 14px; 
+}
+
+
+/*チャプター:ヘッダー*/
+
+header{
+    width: 1000px;
+   background-color: #ffcccc;
+}
+
+/*チャプター:メインとメニューバー*/
+
+#wrapper{
+    width: 1000px;
+}
+
+#main{
+    width: 700px;
+    float: left;
+    background-color: #ccffcc;
+}
+
+#menu{
+    width:300px;
+    float: right;
+    background-color: #ccccff;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*チャプター:フッター*/
+
+footer{
+    width: 1000px;
+    background-color: #ffccff;
+}
+
+
+
